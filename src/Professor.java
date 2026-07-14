@@ -1,9 +1,9 @@
 public class Professor extends Pessoa {
 
     private String especialidade;
-    private float salario;
+    private String salario;
 
-    public void receberAum(float aum) {
+    public void receberAum(String aum) {
         this.salario += aum;
     }
 
@@ -15,7 +15,7 @@ public class Professor extends Pessoa {
         this.especialidade = especialidade;
     }
 
-    public float getSalario() {
+    public String getSalario() {
         return salario;
     }
 
