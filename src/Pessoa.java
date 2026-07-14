@@ -41,4 +41,7 @@ public class Pessoa {
                 ", sexo='" + sexo + '\'' +
                 '}';
     }
+
+    public void receberAum(String s) {
+    }
 }

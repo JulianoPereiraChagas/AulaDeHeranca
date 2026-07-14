@@ -38,6 +38,11 @@ public class ProjetoPessoas {
         p3.setSalario("2500.75");
         p4.setSetor("Estoque");
 
+        // p1.receberAum("550l.20");
+        // p2.mudarTrabalho();
+        // p4.cancelarMatri();
+        // essas daqui de cima estão erradas!!!
+
         // Apresentação geral das pessoas
 
         System.out.println(p1);

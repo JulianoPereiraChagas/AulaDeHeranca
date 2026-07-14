@@ -30,5 +30,4 @@ public class Funcionario extends Pessoa {
                 ", trabalhando=" + trabalhando +
                 '}';
     }
-
 }
