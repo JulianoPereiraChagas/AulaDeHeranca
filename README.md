@@ -1,1 +1,3 @@
 Todas as classes foram construidas, ainda está em produção o código, mas todas as "pessoas" (aluno, professor, funcionario) já existem, atualizarei mais adiante
+
+Adicionado idade, apresentação geral e os nomes
