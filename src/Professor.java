@@ -1,13 +1,25 @@
-public class Professor {
+public class Professor extends Pessoa {
 
     private String especialidade;
-    private int salario;
+    private float salario;
 
-    public void fazerAniv() {
-
+    public void receberAum(float aum) {
+        this.salario += aum;
     }
 
-    public void receberAum(int salario) {
+    public String getEspecialidade() {
+        return especialidade;
+    }
+
+    public void setEspecialidade(String especialidade) {
+        this.especialidade = especialidade;
+    }
+
+    public float getSalario() {
+        return salario;
+    }
+
+    public void setSalario(float salario) {
         this.salario = salario;
     }
 }
