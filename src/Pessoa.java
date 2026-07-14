@@ -1,13 +1,10 @@
 public class Pessoa {
-    public static void main(String[] args) {
 
-        String nome;
-        int idade;
-        String sexo;
+    private String nome;
+    private int idade;
+    private String sexo;
 
+    public void fazerAniversario() {
+        idade++;
     }
-}
-
-void main() {
-    
 }
