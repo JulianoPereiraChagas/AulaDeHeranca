@@ -20,8 +20,8 @@ public class Pessoa {
         return idade;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setIdade(String idade) {
+        this.idade = Integer.parseInt(idade);
     }
 
     public String getSexo() {

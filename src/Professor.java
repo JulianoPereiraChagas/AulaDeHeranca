@@ -19,7 +19,7 @@ public class Professor extends Pessoa {
         return salario;
     }
 
-    public void setSalario(float salario) {
+    public void setSalario(String salario) {
         this.salario = salario;
     }
 
